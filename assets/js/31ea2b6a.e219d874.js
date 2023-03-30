@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkncm_301=self.webpackChunkncm_301||[]).push([[3986],{4677:e=>{e.exports=JSON.parse('{"permalink":"/ncm301/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkncm_301=self.webpackChunkncm_301||[]).push([[2944],{33226:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/ncm301/blog/tags/docusaurus","allTagsPath":"/ncm301/blog/tags","count":4}')}}]);

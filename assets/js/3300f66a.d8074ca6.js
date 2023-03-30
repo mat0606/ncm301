@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkncm_301=self.webpackChunkncm_301||[]).push([[9661],{32884:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/ncm301/blog/tags/facebook","allTagsPath":"/ncm301/blog/tags","count":1}')}}]);
