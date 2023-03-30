@@ -12,9 +12,9 @@ Welcome to the NCM Self Service Workshop.
 Estimated time to complete the labs depending on your familiarity level
 with Nutanix, Kubernets and Openshift concepts is as follows:
 
-- **NCM Self Service 101** - 90 minutes to 120 minutes
-- **NCM Self Service 201** - 90 minutes to 120 minutes
-- **NCM Self Service 301** - 90 minutes to 120 minutes
+- **NCM Self Service 101** - 180 minutes to 240 minutes
+- **NCM Self Service 201** - 180 minutes to 225 minutes
+- **NCM Self Service 301** - 180 minutes to 270 minutes
 
 :::
 
