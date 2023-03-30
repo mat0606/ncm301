@@ -6,7 +6,7 @@ title: "Linux Workloads"
 
 # Overview
 
-Nutanix Calm allows you to seamlessly select, provision, and manage your
+NCM Self Service allows you to seamlessly select, provision, and manage your
 business applications across your infrastructure for both the private
 and public clouds. Nutanix Calm provides App lifecycle, monitoring and
 remediation to manage your heterogeneous infrastructure, for example,
@@ -66,7 +66,7 @@ provisioning and managing a multi-node, multi-tier application.
 # Creating Credentials
 
 First you will create a credential that will be used to authenticate
-Calm to the CentOS VMs you will eventually deploy. Credentials are
+NCM Self Service to the CentOS VMs you will eventually deploy. Credentials are
 unique to each Blueprint, and are **not** exported as part of the
 Blueprint for security purposes. Each Blueprint requires a minimum of 1
 credential.
@@ -195,7 +195,7 @@ cluster, it will skip the download and use the local image instead.
 
 Services are the virtual machine instances, existing machines or
 bare-metal machines, that you can provision and configure by using
-Nutanix Calm.
+NCM Self Service.
 
 In this exercise you will create the database, webserver, and load
 balancer services that comprise your application.
@@ -530,7 +530,7 @@ You will now follow similar steps to define a web server service.
         ```
 
     For many applications it is common to need to scale out a givenservice, such as the web tier in order to handle more concurrent
-    users. Calm makes it simple to turn deploy an array containing multiple copies of a given service.
+    users. NCM Self Service makes it simple to turn deploy an array containing multiple copies of a given service.
 
 8.  With the **WebServer** service icon selected in the Workspace pane,scroll to the top of the **Configuration Panel**, and select the
     **Service** tab.
@@ -757,17 +757,17 @@ ordering. There are a couple of ways to do this, one of which you've already don
 
 What are the key things you should know about **Nutanix Calm**?
 
--   Nutanix Calm, as a native component of Prism, is built on and carries forward the benefits of the platform. The simplicity
+-   NCM Self Service, as a native component of Prism, is built on and carries forward the benefits of the platform. The simplicity
     provided by Acropolis lets Calm focus on applications, rather than trying to mask the complexity of the underlying infrastructure management.
--   Calm blueprints are easy to use. In 60 minutes you went from nothing to a full infrastructure stack deployment. Because Calm uses
+-   NCM Self Service blueprints are easy to use. In 60 minutes you went from nothing to a full infrastructure stack deployment. Because Calm uses
     standard tools for configuration - bash, PowerShell, Python, etc. - there's no new language to learn and you can immediately apply skills and code you already have.
 -   While not as visually impressive, even single VM blueprints can have a massive effect on customers. One bank in India is using Calm for
     single-VM deployments, reducing the time to deploy these applications from 3 days to 2 hours. Remember that many customers
     have little or no automation today (or the automation they have is complex/hard to understand thus limiting it's adoption). This means
-    that Calm can help them right now, today, instantly.
+    that NCM Self Service can help them right now, today, instantly.
 -   **Multi-Cloud Application Automation and Lifecycle Management** may sound scary. The 'future' sounds amazing, but many operators can't see the path to there. Listen to what the customer is struggling with today (backups require specialized skills, VM
-    deployment takes a long time, upgrades are hard) and speak to how Calm can help with that; jumping right to the multi-cloud automation
-    story pushes Calm from a **I need this right now** to a **well let's** evaluate this later on, once things have quieted down (and things never truly quiet down).
+    deployment takes a long time, upgrades are hard) and speak to how NCM Self Service can help with that; jumping right to the multi-cloud automation
+    story pushes NCM Self Service from a **I need this right now** to a **well let's** evaluate this later on, once things have quieted down (and things never truly quiet down).
 -   The Blueprint Editor provides a simple UI for modeling potentiallycomplex applications.
 -   Blueprints are tied to Projects which can be used to enforce quotas and role based access control.
 -   Having a Blueprint install and configure binaries means no longer creating specific images for individual applications. Instead the
@@ -775,7 +775,7 @@ What are the key things you should know about **Nutanix Calm**?
 -   Variables allow another dimension of customizing an application without having to edit the underlying Blueprint.
 -   There are multiple ways of authenticating to a VM (keys or passwords), which is dependent upon the source image.
 -   Application status can be monitored in real time.
--   Applications typically span across multiple VMs, each responsible for different services. Calm is capable of automated and orchestrating full applications.
+-   Applications typically span across multiple VMs, each responsible for different services. NCM Self Service is capable of automated and orchestrating full applications.
 -   Dependencies between services can be easily modeled in the Blueprint Editor.
 -   Users can quickly provision entire application stacks for production or testing for repeatable results without time lost to manual configuration.
--   Interested in using Calm for more app lifecycle operations? Check out the [Calm Day2](../calm_day2_linux/calm_day2_linux.mdx) document
+-   Interested in using NCM Self Service for more app lifecycle operations? Check out the [Calm Day2](../calm_day2_linux/calm_day2_linux.mdx) document
